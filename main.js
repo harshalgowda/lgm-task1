@@ -25,7 +25,6 @@ window.addEventListener('load', () => {
 
 		localStorage.setItem('todos', JSON.stringify(todos));
 
-		// Reset the form
 		e.target.reset();
 
 		DisplayTodos()
